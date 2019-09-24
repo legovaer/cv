@@ -1,7 +1,7 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
+title: Resume Levi Govaerts
 url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
@@ -32,3 +32,4 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+exclude: [vendor]

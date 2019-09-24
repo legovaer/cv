@@ -3,128 +3,264 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Levi Govaerts
+    tagline: Solution Architect / Platform Engineer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: legovaer@me.com
+    phone: +32 496 57 44 84
+    website: www.drupal.org/u/legovaer #do not add http://
+    linkedin: levi.govaerts
+    github: legovaer
+    gitlab: legovaer
+    twitter: '@legovaer'
 
     languages:
-      - idiom: English
+      - idiom: Dutch
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
+
+      - idiom: French
+        level: Basic
 
       - idiom: Spanish
-        level: Professional
+        level: Basic
 
     interests:
-      - item: Climbing
+      - item: Cycling
         link:
 
-      - item: Snowboarding
+      - item: Football
         link:
 
-      - item: Cooking
+      - item: Running
+        link:
+
+      - item: Hackathons
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Levi Govaerts is a solution architect with a technical background who started developing at very young age.
+      This gave Levi the ability to evolve in a person who can work in an independent way, always looking for
+      challenges and new technologies.
 
-      Second paragraph if required.
+      Levi is an optimistic person who likes to be an active team player and knows how to handle and solve problems in
+      stress situations. He is a person who is always ready to answer questions or give support where needed. As an
+      ambitious working team lead, he puts the focus on the quality of the product and will ‘think outside the box’.
+
+      Levi uses his analytical skills to deliver high quality products. More than 10 years of experience in software
+      engineering made him become a domain expert in various technologies. Within the Drupal community he is well known
+      as a vast contributor who attends several community events each year where he often hosts presentations on the
+      work he’s done.
+
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: A2 Multimedia Techniques
+      university: SISA Antwerp
+      time: 2006 - 2009
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: Acquia Developer (Certified)
+    - degree: SCRUM Master (Certified)
+    - degree: Archimate (Certified)
+    - degree: Archimate 2 (Certified)
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Application Architect
+      time: April 2019 - Present
+      company: Cegeka NV, Belgium (client VDAB)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Levi was assigned as an application architect for the company VDAB. VDAB asked Cegeka to hire Levi in order to
+        start working for the company. VDAB has been working for quite a long time with Drupal and Symfony applications
+        but wanted to streamline their DevOps setup. As they saw Levi presenting various sessions about DevOps and QA,
+        they wanted him to help them out.
 
-          - Bullet point
-          - Bullet point
+          - Automate Drupal testing (Behat & PHPUnit)
+          - Setup Kubernetes on Azure
+          - Orchestra containers using puppet
+          - Transform existing Jenkins setup towards GitLab Pipelines
+          - Improve Docker images
+          - Centralize all their DevOps services in Azure
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Lead Platform Engineer / Solution Architect
+      time: October 2018 - May 2019
+      company: The Reference, Belgium (client Orde van Vlaamse Balies)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Orde van Vlaamse Balies is a company that represents all courts in the Flemish region of Belgium. All lawyers
+        make use of their platform in order to retrieve information. The platform itself is developed in Drupal 8 and
+        connects to a wide set of official information platforms of the government of Belgium.
 
-          - Bullet point
-          - Bullet point
+        Levi was responsible for:
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Designing the Drupal 8 service
+          - Designing the Kubernetes environment on Azure
+          - Building a fully automated pipeline from the QA environment towards the production environment
+          - Automate all testing (PHPUnit & Behat)
+          - Simplify the process for developers for building a local environment (using Lando)
+
+    - role: Platform Engineer / Solution Architect
+      time: August 2017 - May 2019
+      company: The Reference, Belgium
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        The Reference is a large agency that has a focus on delivering full-services towards their clients. When they
+        started in 2017 with delivering Drupal related services, they hired Levi in order to coach a junior team on how
+        they could improve their development skills.
 
-          - Bullet point
-          - Bullet point
+        At the time when Levi joined their team, there was no QA process, no automation and no documentation at all.
+
+        By the time when Levi left the company, the team had:
+
+          - All the code of various projects setup in GitLab
+          - Same organisation of code for all their projects within the repositories
+          - Wide set of Jenkins helper jobs in order to setup new projects, monitor cron jobs & security releases
+          - Fully automated DevOps pipeline in Jenkins
+          - A perfect local development environment for both front- and back-end developers using Lando
+          - Code analysis tools that warned developers in case of errors or missing documentation
+          - Improved their story points per sprint with 8 additional points (From 24 SP to 32 SP per sprint)
+          - A setup of a No-Ops environment where everything was fully automated (Unit testing, auto deployments, automated behat tests, integrations with Slack, Confluence and JIRA)
+          - His team has won two Splash (Dutch and European award for best Government website (aquafin.be)) awards for a project they delivered
+          - Introduced several of his team members into contributing towards Drupal
+          - After an internal survey, the overall rate of the team increased.
+          - Setup of individual career paths & evaluation processes for the Drupal team
+          - Reporting to the CEO on a monthly base about the progress of the team
+          - Decreased the time-to-market for Drupal projects as the developers didn't need to spend their time on DevOps
+          - Optimize release strategy by automating testing & deployments towards platform.sh
+
+    - role: Release Manager / Solution Architect
+      time: July 2016 - August 2018
+      company: Capgemini, Belgium (client UCB)
+      details: |
+        UCB asked Capgemini Belgium to re-locate Levi back to Belgium. UCB’s website landscape was scattered and lots of
+        websites were hosted on external hosting providers. UCB asked Levi to invent a system that would migrate all
+        these websites to UCB’s Azure environment.
+
+        Levi's responsibilities
+
+          - Close collaboration with the governance team which was based in US
+          - Designing release processes and workflows
+          - Designing a scalable platform which is hosted on Azure via Kubernetes
+          - Setup of a containerised environment using Docker
+          - Simplifying the development process by developing a Vagrant box that is getting provisioned using Ansible
+          - Automating build processes using Capistrano & Visual Studio Team Services
+          - Training colleagues and remote teams on implementing the new tools
+
+    - role: Solution Architect / Platform Engineer
+      time: March 2015 - June 2016
+      company: Capgemini, United Kingdom (client The Royal Mail)
+      details: |
+        After working several years for Capgemini Belgium, Levi decided to search for an opportunity abroad. He joined
+        the RMG account where he was responsible for managing several offshore and onshore teams. During several new
+        projects, Levi was assigned as the Lead Architect and had to made technical decisions.
+
+        Levi's responsibilities
+
+          - Close collaboration with the governance team which was based in US
+          - Designing release processes and workflows
+          - Designing a scalable platform which is hosted on Azure via Kubernetes
+          - Setup of a containerised environment using Docker
+          - Simplifying the development process by developing a Vagrant box that is getting provisioned using Ansible
+          - Automating build processes using Capistrano & Visual Studio Team Services
+          - Training colleagues and remote teams on implementing the new tools
+
+    - role: Drupal Architect / Release Manager
+      time: January 2015 - April 2015
+      company: Capgemini, Belgium (client Johnson & Johnson)
+      details: |
+        Levi was asked to develop, deploy and manage a new release strategy for the offshore Johnson&Johnson Drupal
+        projects. The setup of this new strategy was required because the old release process was no longer working.
+
+        Levi's responsibilities
+
+          - Documenting the new Release Strategy
+          - Collaborate with IT team to get aligned
+          - Define new roles in the offshore team the deployment of the new release process
+          - Report to business on the progress
+          - Analysing & improving the implementation of SCRUM
+
+    - role: Drupal Architect / Platform Engineer
+      time: November 2013 - December 2014
+      company: Capgemini, Belgium (client bpost)
+      details: |
+        Levi started working as a functional analyst on a single project at bpost. In the meantime, Capgemini won
+        several large projects for this client and decided to appoint Levi as the platform engineer and solution
+        architect for all these projects.
+
+        Levi's responsibilities
+
+          - Creating plannings for each project in cooperation with the program director
+          - Providing estimations for the cost of the workload for new projects
+          - Discussing the architecture together with the enterprise architects of bpost and the solution architect of Capgemini
+          - Being a SPOC for the application infrastructure (Acquia)
+          - Keeping an overview of functionalities that can be implemented in other projects (common modules)
+          - Performing (automated) quality audits on the delivered work of his colleagues
+          - Developing a new Drupal Distribution in order to easily set-up new Drupal instances on Acquia Cloud
+          - Establishing the multisite environment for the client
+          - Leading the daily scrum meetings with colleagues in India
+          - Setting up the architecture for the Continuous Improvement platform
+          - Setting up the workflow for continuous improvement
+          - Setting up automated regression tests using Jenkins, Behat, Mink, Selenium & SauceLabs
+          - Following up and unblocking colleagues
+          - Monitor
+
+    - role: Drupal Architect
+      time: July 2013 - October 2013
+      company: Capgemini, Belgium (client European Commission)
+      details: |
+        DIGIT (European Commission), in partnership with all relevant stakeholders, has the responsibility to define the
+        IT Strategy of the European Commission, provide the EC and whenever appropriate other European Institutions and
+        bodies with high quality and advanced, IT infrastructure solutions and e-services, support services,
+        telecommunications facilities, deliver information systems required to support EC corporate business processes
+        within the framework of the e-Commission strategy, promote and facilitate, in full collaboration with European
+        public administrations, the deployment of pan- European eGovernement services for citizens and enterprises.
+
+        DM-TRAINET (Disaster Management Training Network) is a community where people can participate, communicate and
+        collaborate to develop Best Practices, Lessons Learned, Training Courses.
+
+        Levi's responsibilities
+
+          - Platform Architect
+          - Analysing the business requirements
+          - Defining and documenting the functional requirements for this platform
+          - Designing the overall platform
+          - Having functional and technical sessions when new features needed to be implemented.
+          - Collaborating with the development team for all custom functionalities
+          - Hosting different workshops and demo’s
+          - Converting given feedback of users to new features
+          - Realising the project with only a few provided modules
+          - Analysing security of the system
+
+    - role: Drupal Developer / System Engineer
+      time: February 2011 - June 2017
+      company: Vrije Universiteit Brussel
+      details: |
+        SURF is a research group of the ‘Vrije universiteit Brussel’. The group is a team of professors, postdoctoral
+        researchers, Ph.D. students, engineers, economists, supported by a professional technical and administrative
+        staff wants to contribute to the societal and technological challenges of the 21st century.
+
+        Levi's responsibilities
+
+          - Analysing the existing server setup
+          - Drawing a new setup for the servers
+          - Functional and technical analysis of the customer’s business needs
+          - Developing and maintaining customised Drupal platform
+          - Porting custom made Drupal 6 modules to Drupal 7
+          - Module development
+          - Frontend development
+          - Integration of Alfresco (document management tool) within Drupal platform
+          - Developing and maintaining the group’s website
+          - Developing an interaction ‘bridge’ between the intranet platform and the group’s website
+          - Analysing statistics from Google Analytics to improve the visibility within Google.
+          - Reporting the site usage to the board of the group (Google Analytics)
+          - Organising workshops and demo for users of the platform
+          - Training colleagues to work with the Drupal platform
 
 projects:
     title: Projects
@@ -134,67 +270,78 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Drupal Validators module
+        link: "https://www.drupal.org/project/validators"
+        tagline: "'Validators' allows you to use the Symfony Validator component inside your Drupal projects."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Drupal Scheduler module
+        link: "https://www.drupal.org/project/scheduler"
+        tagline: "Scheduler gives content editors the ability to schedule nodes to be published and unpublished at
+        specified dates and times in the future."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Drupal Symfony Inject module
+        link: "https://www.drupal.org/project/drupal_symfony_inject"
+        tagline: "Drupal Symfony Inject' allows you to use the Symfony dependency injection component inside your Drupal 7 projects."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Niko Home Control Python SDK
+        link: "https://github.com/NoUseFreak/niko-home-control"
+        tagline: "A connector (written in Python) that interacts with Niko Home Control systems."
 
 publications:
-    title: Publications
+    title: Sessions
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Levi has been speaking during a lot of various open source events.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Setting up a No-Ops project using Lando, GitLab and Platform.sh
+        conference: DrupalCamp Belgium, 2018
+      - title: Setting up a No-Ops project using Lando, GitLab and Platform.sh
+        conference: Drupal Europe, 2018
+      - title: Surviving your job when having ADD
+        conference: DrupalCamp Belgium, 2017
+      - title: Surviving your job when having ADD
+        conference: DrupalCamp Dublin, 2017
+      - title: Surviving your job when having ADD
+        conference: DrupalJamp Utrecht, 2017
+      - title: How We Implemented Symfony's Dependency Injection in Drupal 7
+        conference: Drupal Show & Tell London, 2016
+      - title: "The missing link in Drupal: Code Coverage"
+        conference: DrupalCamp Belgium, 2016
+      - title: How DrupalCI works
+        conference: Drupal IronCamp, 2016
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Functional &amp; Skills
 
     toolset:
-      - name: Python & Django
+      - name: Drupal (PHP)
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Bash
+        level: 93%
 
-      - name: Angular
-        level: 98%
+      - name: Docker
+        level: 91%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Python
+        level: 82%
+
+      - name: Kubernetes
+        level: 77%
+
+      - name: Azure
+        level: 75%
+
+      - name: Amazon AWS
+        level: 70%
+
+      - name: Google Cloud
+        level: 70%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 53%
 
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

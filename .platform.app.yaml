@@ -1,0 +1,26 @@
+name: "cv"
+type: "ruby:2.6"
+
+hooks:
+  build: |
+    set -e
+    gem install bundler
+    bundle install
+    bundle exec jekyll build
+  deploy:
+    if [ "$PLATFORM_BRANCH" != master ]; then
+    # html proofer should not be executed on master.
+    bundle exec htmlproofer ./_site --disable-external
+    fi
+# Configure the web server to serve our static site.
+web:
+  commands:
+    # Run a no-op process that uses no CPU resources, since this is a static site.
+    start: sleep infinity
+
+  locations:
+    # This tells Nginx to serve from the base directory
+    "/":
+      root: "_site"
+      index:
+        - "index.html"
