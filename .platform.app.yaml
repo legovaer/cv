@@ -7,7 +7,7 @@ hooks:
     gem install bundler
     bundle install
     bundle exec jekyll build
-  deploy:
+  deploy: |
     if [ "$PLATFORM_BRANCH" != master ]; then
     # html proofer should not be executed on master.
     bundle exec htmlproofer ./_site --disable-external
