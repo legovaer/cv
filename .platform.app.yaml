@@ -1,6 +1,6 @@
 name: "cv"
 type: "ruby:2.6"
-
+disk: 2048
 hooks:
   build: |
     set -e
