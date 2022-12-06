@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Levi Govaerts
-    tagline: Solution Architect / Platform Engineer
+    tagline: Solution Architect / DevOps Engineer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: legovaer@me.com
-    phone: +32 496 57 44 84
-    website: www.drupal.org/u/legovaer #do not add http://
+    email: levi@lgit.be
+    phone: +32 474 70 34 95
+    website: lgit.be #do not add http://
     linkedin: levi.govaerts
     github: legovaer
     gitlab: legovaer
@@ -34,13 +34,13 @@ sidebar:
         level: Basic
 
     interests:
-      - item: Cycling
+      - item: Home Automation
         link:
 
       - item: Football
         link:
 
-      - item: Running
+      - item: Machine Learning
         link:
 
       - item: Hackathons
@@ -49,7 +49,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Levi Govaerts is a solution architect with a technical background who started developing at very young age.
+      Levi Govaerts is a solution architect / devops engineer with a technical background who started developing at very young age.
       This gave Levi the ability to evolve in a person who can work in an independent way, always looking for
       challenges and new technologies.
 
@@ -61,6 +61,8 @@ career-profile:
       engineering made him become a domain expert in various technologies. Within the Drupal community he is well known
       as a vast contributor who attends several community events each year where he often hosts presentations on the
       work he’s done.
+      
+      Levi is best known as 'Mc Gyver': he will always find a solution.
 
 
 education:
@@ -74,8 +76,38 @@ education:
     - degree: Archimate 2 (Certified)
 
 experiences:
+    - role: DevOps Engineer
+      time: October 2021 - Present
+      company: WEAREONE.world (Tomorrowland)
+      details: |
+        Levi helped Tomorrowland with setting up their infrastructure on Amazon AWS. As their applications
+        receive millions of requests during ticket sale events, monitoring the infrastructure
+        was quite challenging. During the festival, Levi was monitoring the website traffic, bracelet scanners
+        and the live streams.
+        
+          - Using Terraform for setting up infrastructure environments
+          - Setup & configure Grafana and ELK stack for monitoring
+          - Automate and standardize GitHub actions
+          - Configure Alert Manager, Prometheus, Slack and PagerDuty integrations
+
+    - role: Platform Architect
+      time: October 2019 - October 2021
+      company: ScaleCity.io
+      details: |
+        ScaleCity approached Levi as they were setting up a new hosting platform. 
+        Levi’s role was to create a templating language and automate deployments / testing of 
+        kubernetes applications. The templating language was written in `JSONNET` and helped ScaleCity 
+        to create Kubernetes applications for their clients. Levi also created a 
+        testing framework for jsonnet: jsonnunit.io.
+
+          -  Develop templating language
+          -  Automate deployments of Kubernetes applications on Google Cloud
+          -  Create a company CLI tool that can be used by employees
+          -  Setup Google Pub/Sub flow
+          -  Setup Terraform in order to simplify the management of various components
+
     - role: Application Architect
-      time: April 2019 - Present
+      time: April 2019 - October 2019
       company: Cegeka NV, Belgium (client VDAB)
       details: |
         Levi was assigned as an application architect for the company VDAB. VDAB asked Cegeka to hire Levi in order to
